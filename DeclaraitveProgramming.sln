@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiplineConcept", "PiplineConcept\PiplineConcept.csproj", "{B73B8EFC-A324-4C40-841A-655858387FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighOrderFunctions", "HighOrderFunctions\HighOrderFunctions.csproj", "{BAC1EF1A-F123-4755-AB1F-EDC67E8097FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B73B8EFC-A324-4C40-841A-655858387FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73B8EFC-A324-4C40-841A-655858387FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73B8EFC-A324-4C40-841A-655858387FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73B8EFC-A324-4C40-841A-655858387FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC1EF1A-F123-4755-AB1F-EDC67E8097FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC1EF1A-F123-4755-AB1F-EDC67E8097FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC1EF1A-F123-4755-AB1F-EDC67E8097FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC1EF1A-F123-4755-AB1F-EDC67E8097FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1CA7AA9-5FA4-4C73-915C-768C40C1DB80}
+	EndGlobalSection
+EndGlobal

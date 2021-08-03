@@ -1,0 +1,17 @@
+﻿#ECommerceCalcDiscoundEX Class 
+	*Overview
+		class use to calculate the discount depend on type of product when we have three types ,first calculate discount parameter then calculate discount  
+	*Methodology
+		class consists on 
+			1 - three delegate of type Func<int, (double , double )> refear to function take int as parameter and return tuple of double double 
+			2-  three method each  will calc parameter that use  for discound take int as paramter and return tuple of type type 
+				a- Calc Product Parameter Raw Material that use Equation  (x1: ProductIndex / (double)(ProductIndex + 400), x2: ProductIndex / (double)(ProductIndex + 700)) 
+				b- Calc Product Parameter Beverage that use Equation (x1: ProductIndex / (double)(ProductIndex + 300), x2: ProductIndex / (double)(ProductIndex + 400))
+				c- Calc Product Parameter Food that use Equation (x1: ProductIndex / (double)(ProductIndex + 100), x2: ProductIndex / (double)(ProductIndex + 300))
+			3-Calc Discound Function To Caculate Discound have Two Parameter 
+				a- Func<int , (double , double)> F  :  The function that is used to calculate the parameter 
+				b- Order order : The order for which the discount will be calculated
+			4-constractor have one paramter use to determine delegate we will use to discound 
+				a-productType product : value of Product Type 
+				
+				
