@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiplineConcept", "PiplineConcept\PiplineConcept.csproj", "{B73B8EFC-A324-4C40-841A-655858387FE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiplineConcept", "PiplineConcept\PiplineConcept.csproj", "{B73B8EFC-A324-4C40-841A-655858387FE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighOrderFunctions", "HighOrderFunctions\HighOrderFunctions.csproj", "{BAC1EF1A-F123-4755-AB1F-EDC67E8097FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighOrderFunctions", "HighOrderFunctions\HighOrderFunctions.csproj", "{BAC1EF1A-F123-4755-AB1F-EDC67E8097FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealLiveExample", "RealLiveExample\RealLiveExample.csproj", "{BDCA7482-F205-47B7-B86F-840966B73964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BAC1EF1A-F123-4755-AB1F-EDC67E8097FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAC1EF1A-F123-4755-AB1F-EDC67E8097FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAC1EF1A-F123-4755-AB1F-EDC67E8097FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCA7482-F205-47B7-B86F-840966B73964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCA7482-F205-47B7-B86F-840966B73964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCA7482-F205-47B7-B86F-840966B73964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCA7482-F205-47B7-B86F-840966B73964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
