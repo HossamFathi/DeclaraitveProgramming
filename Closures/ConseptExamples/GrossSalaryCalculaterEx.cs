@@ -9,9 +9,9 @@ namespace Closures.ConseptExamples
    public enum EmployeeCategory
     {
 
-        first,
-        second,
-        third
+        Employee,
+        Saler,
+        Manger
 
     }
     public class GrossSalaryCalculaterEx
@@ -28,9 +28,9 @@ namespace Closures.ConseptExamples
         {
             GrossSalaryFunctions = new List<(EmployeeCategory category, Func<double, double> GrossSalaryCalcFunc)>
             {
-                (EmployeeCategory.first , GrossSalaryCalculaterFunction(1000)) ,
-                (EmployeeCategory.second , GrossSalaryCalculaterFunction(2000)) ,
-                (EmployeeCategory.third , GrossSalaryCalculaterFunction(3000)) ,
+                (EmployeeCategory.Employee , GrossSalaryCalculaterFunction(1000)) ,
+                (EmployeeCategory.Saler , GrossSalaryCalculaterFunction(2000)) ,
+                (EmployeeCategory.Manger , GrossSalaryCalculaterFunction(3000)) ,
 
 
             };
