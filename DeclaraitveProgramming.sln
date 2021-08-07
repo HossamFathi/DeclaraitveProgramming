@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighOrderFunctions", "HighO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealLiveExample", "RealLiveExample\RealLiveExample.csproj", "{BDCA7482-F205-47B7-B86F-840966B73964}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionComposition", "FunctionComposition\FunctionComposition.csproj", "{407273F5-ED4E-489C-8C64-146395A65B6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionComposition", "FunctionComposition\FunctionComposition.csproj", "{407273F5-ED4E-489C-8C64-146395A65B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Closures", "Closures\Closures.csproj", "{689FE6B8-7478-4B7D-A2CE-C969ABCBCC31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{407273F5-ED4E-489C-8C64-146395A65B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{407273F5-ED4E-489C-8C64-146395A65B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{407273F5-ED4E-489C-8C64-146395A65B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689FE6B8-7478-4B7D-A2CE-C969ABCBCC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689FE6B8-7478-4B7D-A2CE-C969ABCBCC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689FE6B8-7478-4B7D-A2CE-C969ABCBCC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689FE6B8-7478-4B7D-A2CE-C969ABCBCC31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
